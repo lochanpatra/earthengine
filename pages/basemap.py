@@ -1,7 +1,7 @@
 import streamlit as st
 import geemap.foliumap as geemap
 
-st.title("Interactive Map")
+st.title(" Map")
 
 col1, col2 = st.columns([4, 1])
 options = list(geemap.basemaps.keys())
